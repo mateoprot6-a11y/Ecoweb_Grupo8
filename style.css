@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.texto-titulo {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.container-titulo {
+  display: flex;
+  background-color: #31401c; /* Color de fondo para destacar el título */
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contenedor-columnas {
+  display: flex;
+  justify-content: space-between; /* Distribuye las columnas equitativamente */
+  gap: 20px; /* Espacio entre columnas */
+  font-family: sans-serif;
+}
+
+.columna {
+  display: 100px; /* Hace que todas midan lo mismo */
+  text-align: center;
+}
+.imagenes {
+  display: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.caja-contenido {
+  border: 1px solid green; /* Recrea el borde dibujado a mano */
+  padding: 15px;
+  border-radius: px;
+  min-height: 150px;
+}
+
